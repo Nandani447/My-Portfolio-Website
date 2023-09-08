@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Nandani - Developer Portfolio</title>
+	<link rel="icon" type="image" href="img/img4.png"> <!--Show my image on title bar-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+		integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width:898px)">
+</head>
+
+<body>
+	<nav>
+		<div class="left"><img src="img/img4.png"><span>Nandani's Portfolio</span></div>
+		<div class="right">
+			<ul>
+				<li><a class="active" href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="services.html">Services</a></li>
+				<li><a href="project.html">Projects</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<main>
+		<section class="firstsection">
+			<div class="leftsection">
+				Hi, My name is <span class="purple">Nandani</span>
+				<div>and I am a passionate</div>
+				<span id="element"></span>
+				<div class="buttons">
+					<button class="btn">See Resume</button>
+					<button class="btn" onclick="location.href='https://github.com/Nandani447'">Visit Github</button>
+				</div>
+			</div>
+			<div class="rightsection">
+				<img src="img/img1.png" alt="">
+			</div>
+
+		</section>
+		<hr>
+
+		<section class="secondsection">
+			<span class="text-gray">What I have done technologies so far</span>
+			<h1>Work Experiance</h1>
+
+			<div class="box">
+				<div class="vertical">
+					<img class="img-top" src="img/html.png" alt="">
+					<div class="vertical-title">
+						HTML Developer (2018-2019)
+					</div>
+					<div class="vertical-desc">
+						HTML Stands for Hypertext Markup Language.It is basically a standard markup language for giving
+						a static skeleton to web application and websites.
+					</div>
+				</div>
+				<div class="vertical">
+					<img class="img-top" src="img/js.png" alt="">
+					<div class="vertical-title">
+						JavaScript Developer (2019-2020)
+					</div>
+					<div class="vertical-desc">
+						JavaScript is a client side scripting language.JS can execute not only in the browser, but also
+						on the server.
+					</div>
+				</div>
+
+
+				<div class="vertical">
+					<img class="img-top" src="img/js.png" alt="">
+					<div class="vertical-title">
+						Node.Js Developer (2020-2021)
+					</div>
+					<div class="vertical-desc">
+						Node.JS is a JavaScript run time built on chrome's VB JavaScript engine. Node.JS is free and an
+						open source server environment.
+					</div>
+				</div>
+				<div class="vertical">
+					<img class="img-top" src="img/java.png" alt="">
+					<div class="vertical-title">
+						Java Developer (2021-2022)
+					</div>
+					<div class="vertical-desc">
+						Java is a programming language and a platform. Java is a high level, Object-oriented and
+						secure programming language.Initially it's name was 'Oak'.
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footer">
+			<div class="footer-section">
+				<a href="https://www.linkedin.com/in/nandani-sharma-36b966180/"><img src="img/linkdin.png" alt=""></a>
+				<a href="https://www.instagram.com/ruddrika_sharma/"><img src="img/insta.png" alt=""></a>
+				<a href="https://www.facebook.com/rudrika.sharma.940/"><img src="img/fb.png" alt=""></a>
+				<a href="https://github.com/Nandani447"><img id="gitimg" src="img/git.png" alt=""></a>
+			</div>
+		</div>
+		<div class="container">
+			<span>Copyright &#169; 2023@nandanisportfolio.com | All rights reserved</span>
+			<span>Handcrafted by Nandani</span>
+		</div>
+
+	</footer>
+
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+	<!-- Setup and start animation! -->
+	<script>
+		var typed = new Typed('#element', {
+			strings: ['Web Developer', 'Coding Enthusiastic', 'Software Developer', 'Web Designer', 'Computer Expert', 'Freelancer'],
+			typeSpeed: 50,
+		});
+	</script>
+</body>
+
+</html>
